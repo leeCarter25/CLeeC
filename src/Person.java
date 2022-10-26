@@ -28,25 +28,25 @@ public class Person {
     }
 
     public static void main(String[] args) {
-//        Person lee = new Person("lee");
-//
-//        System.out.println(lee.getName());
-//        Scanner myScanner = new Scanner(System.in);
-//        System.out.println("What is your new name?");
-//        String newName = myScanner.nextLine();
-//        lee.setName(newName);
-//        lee.sayHello();
+        Person lee = new Person("lee");
 
-//Q2
-//        Person person1 = new Person("John");
-//        Person person2 = new Person("John");
-//        System.out.println(person1.getName().equals(person2.getName()));
-//        System.out.println(person1 == person2);
+        System.out.println(lee.getName());
+        Scanner myScanner = new Scanner(System.in);
+        System.out.println("What is your new name?");
+        String newName = myScanner.nextLine();
+        lee.setName(newName);
+        lee.sayHello();
+
+
+        Person person1 = new Person("John");
+        Person person2 = new Person("John");
+        System.out.println(person1.getName().equals(person2.getName()));
+        System.out.println(person1 == person2);
 
 //        Person person1 = new Person("John");
 //        Person person2 = person1;
 //        System.out.println(person1 == person2);
-
+//
 //        Person person1 = new Person("John");
 //        Person person2 = person1;
 //        System.out.println(person1.getName());
@@ -59,3 +59,5 @@ public class Person {
 
     }
 }
+
+//
